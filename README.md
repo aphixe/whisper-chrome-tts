@@ -14,12 +14,22 @@ https://www.python.org/downloads/release/python-3913/
 
 python.exe -m pip install --upgrade pip
 
+======================================
+Install pytorch
+======================================
+goto
 
 https://pytorch.org/get-started/locally/
-make sure pytorch sees cuda, if not you need to reinstall drivers and reinstall pytorch
+
+change to latest cuda 11.8 and select the code and paste, run the code in cmd prompt
+
+
+
+next make sure pytorch sees cuda, if not you need to reinstall drivers and reinstall pytorch
 
 to check pytorch open cmd then type
 
+---------------------------------------
 python
 
 then type
@@ -28,7 +38,25 @@ import torch        (WAIT for it to import)
 torch.cuda.is_available()
 
 should output TRUE
-you need to download and set path for ffmpeg
+----------------------------------------
+
+========================================
+Install ffmpeg
+========================================
+
+Google ffmpeg goto site and click on windows then choose, builds by gyan.dev download the full 7zip.
+I downloaded 7zip from ninite, so google ninite and search page for 7-zip
+install 7zip, then extract ffmpeg, rename the extracted folder to ffmpeg and move to root of your os disk, so for me c:\ffmpeg
+
+
+press start key and search for path, then look for edit the system enviroments, 
+
+click enviroment variables, then select path, hit edit and click new add. c:\ffmpeg\bin\
+------------------------------------------
+
+==========================================
+Last packages you should need
+==========================================
 
 pip install websockets
 
