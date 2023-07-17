@@ -8,14 +8,22 @@ then use something like migaku browser addon to see subs on youtube. then you ca
 
 everything you need to run this
 python 3.9.13
+
+
 https://www.python.org/downloads/release/python-3913/
+
 python.exe -m pip install --upgrade pip
+
+
 https://pytorch.org/get-started/locally/
 make sure pytorch sees cuda, if not you need to reinstall drivers and reinstall pytorch
 
 to check pytorch open cmd then type
+
 python
+
 then type
+
 import torch        (WAIT for it to import)
 torch.cuda.is_available()
 
