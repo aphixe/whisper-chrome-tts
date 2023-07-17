@@ -20,11 +20,28 @@ import torch        (WAIT for it to import)
 torch.cuda.is_available()
 
 should output TRUE
+you need to download and set path for ffmpeg
+
+pip install websockets
 
 pip install openai-whisper
-pip install websockets
+
 pip install yt-dlp
+
+open
 chrome://extensions/ 
+and set mode to developer.
+load unpacked, point to this github to where you extracted it
+
+pin the extension if you like
+open a command prompt where you have this github package unziped and run the listener with:
+
+python runme.py
+this will listen to when you press excute page button. then it will make an output.srt when it finishes the end of the video.
+
+then use migaku extension and add the subtitle and enjoy.
+
+
 
 this is what my packages i have installed and it works.
 pip list
