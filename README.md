@@ -36,9 +36,21 @@ pip install openai-whisper
 
 pip install yt-dlp
 
+you may want to test whisper, i used windows 11's voice recorder then located the sound file then typed cmd into address bar of that explorer window and ran the code.
+
+whisper audiofile.m4a or whatever the extension of the file is.
+it should output a txt file and a bunch other formats.
+
+
+how to install extension
+========================
+
 open
-chrome://extensions/ 
+chrome://extensions/
+
 and set mode to developer.
+
+
 load unpacked, point to this github to where you extracted it
 
 pin the extension if you like
