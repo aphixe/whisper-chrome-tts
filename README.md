@@ -14,9 +14,9 @@ https://www.python.org/downloads/release/python-3913/
 
 python.exe -m pip install --upgrade pip
 
-======================================
+--------------------------------------
 Install pytorch
-======================================
+---------------------------------------
 goto
 
 https://pytorch.org/get-started/locally/
@@ -40,9 +40,9 @@ torch.cuda.is_available()
 should output TRUE
 ----------------------------------------
 
-========================================
+----------------------------------------
 Install ffmpeg
-========================================
+----------------------------------------
 
 Google ffmpeg goto site and click on windows then choose, builds by gyan.dev download the full 7zip.
 I downloaded 7zip from ninite, so google ninite and search page for 7-zip
@@ -54,9 +54,9 @@ press start key and search for path, then look for edit the system enviroments,
 click enviroment variables, then select path, hit edit and click new add. c:\ffmpeg\bin\
 ------------------------------------------
 
-==========================================
+------------------------------------------
 Last packages you should need
-==========================================
+------------------------------------------
 
 pip install websockets
 
@@ -71,7 +71,7 @@ it should output a txt file and a bunch other formats.
 
 
 how to install extension
-========================
+---------------------------------------
 
 open
 chrome://extensions/
