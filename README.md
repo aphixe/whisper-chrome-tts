@@ -35,6 +35,7 @@ python
 then type
 
 import torch        (WAIT for it to import)
+
 torch.cuda.is_available()
 
 should output TRUE
