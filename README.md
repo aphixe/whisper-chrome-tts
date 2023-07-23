@@ -88,10 +88,15 @@ open a command prompt where you have this github package unziped and run the lis
 python runme.py
 this will listen to when you press excute page button. then it will make an output.srt when it finishes the end of the video.
 
+
 if you want to force japanese if say the auto detect fails run
+
+
 python runmejapanese.py
 
-then use migaku extension and add the subtitle and enjoy.
+
+
+then use migaku extension and add output.srt the subtitle and enjoy.
 
 
 
