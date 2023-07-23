@@ -85,7 +85,10 @@ load unpacked, point to this github to where you extracted it
 pin the extension if you like
 open a command prompt where you have this github package unziped and run the listener with:
 
+
 python runme.py
+
+
 this will listen to when you press excute page button. then it will make an output.srt when it finishes the end of the video.
 
 
