@@ -23,6 +23,7 @@ https://pytorch.org/get-started/locally/
 
 change to latest cuda 11.8 and select the code and paste, run the code in cmd prompt
 
+on mac or non nvidia gpu. select default. maybe roc works on amd? copy command into termial
 
 
 next make sure pytorch sees cuda, if not you need to reinstall drivers and reinstall pytorch
@@ -53,6 +54,8 @@ install 7zip, then extract ffmpeg, rename the extracted folder to ffmpeg and mov
 press start key and search for path, then look for edit the system enviroments, 
 
 click enviroment variables, then select path, hit edit and click new add. c:\ffmpeg\bin\
+
+on mac use: brew install ffmpeg
 ------------------------------------------
 
 ------------------------------------------
@@ -101,6 +104,13 @@ python runmejapanese.py
 
 then use migaku extension and add output.srt the subtitle and enjoy.
 
+
+----------------------------------------------------
+on mac, maybe linux
+also on mac i used brew, google how to install brew, then run 'brew install ffmpeg'
+install all the same pip commands above, and pytorch gpu was set to default as my mac does not have nVidia or amd.
+run a chmod a+x runmemac.py and on runmejapanesemac.py
+the run python runmemac.py or python runmemacjapanese.py
 
 
 this is what my packages i have installed and it works.
