@@ -106,11 +106,11 @@ then use migaku extension and add output.srt the subtitle and enjoy.
 
 
 ----------------------------------------------------
-on mac, maybe linux
-also on mac i used brew, google how to install brew, then run 'brew install ffmpeg'
-install all the same pip commands above, and pytorch gpu was set to default as my mac does not have nVidia or amd.
-run a chmod a+x runmemac.py and on runmejapanesemac.py
-the run python runmemac.py or python runmemacjapanese.py
+on mac, and linux
+also on mac i used brew, google how to install brew, then run 'brew install ffmpeg' (install ffmpeg on your package manager)
+install all the same pip commands above, and pytorch gpu was set to default as my mac does not have nVidia or amd. on linux i used cuda 18 like on windows
+run a chmod a+x runmeunix.py and on runmejapaneseunix.py
+the run python runmeunix.py or python runmejapaneseunix.py
 
 
 this is what my packages i have installed and it works.
